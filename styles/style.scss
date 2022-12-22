@@ -1,0 +1,33 @@
+$principal-color: #FA58B6;
+$second-color: #270082;
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin color-and-text($background-color, $text-color) {
+    width: 50%;
+    background-color: $background-color;
+    .text {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 150px;
+        color: $text-color;
+    }
+}
+
+body {
+    @include reset;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    .left {
+        @include color-and-text($principal-color, $second-color)
+    }
+    .right {
+        @include color-and-text($second-color, $principal-color)
+    }
+}
