@@ -17,7 +17,7 @@
 ## :pencil: Descrição do Projeto
 O projeto **[SASS](https://nayarawatanuki.github.io/sass__introduction/)**, é apenas uma demonstração de como funciona a estilização Sass. 
 
-</br>Desenvolvido para introdução do curso: **SASS - CSS SINTATICAMENTE ESPETACULAR** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para introdução do curso: **SASS - CSS SINTATICAMENTE ESPETACULAR** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
